@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main1 {
+        background-image: url("container1/ss.png");
+        filter: blur(8px);
+        height: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .main2 {
+        width: 60%;
+        height: 350px;
+        border-radius: 15px;
+        background-color: white;
+        z-index: 2;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .m2sub1 {
+        width: 50%;
+        height: 100%;
+        background-image: url("https://assets.cars24.com/production/c2b-website/230621163739/js/a4fc97bb073cef132255dcf77755b6f5.png " ) ;
+        background-size:  cover;
+        border-radius: 15px 0px 0px 15px;
+
+      }
+      .m2sub2 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+      }
+      h4 {
+        margin: 40px;
+        font-family: var(--main-font);
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 48px;
+        letter-spacing: -0.01em;
+        color: #fff;
+      }
+      #login{
+        width: 100%;
+        text-align: left;
+        margin-left: 20px;
+        color: #002441;
+        font-size: 19px;
+        font-weight: 800;
+      }
+      #t2{
+        width: 100%;
+        text-align: left;
+        margin-left: 20px;
+        color: #002441;
+        font-size: 15px;
+      }
+      #t3{
+        width: 100%;
+        text-align: left;
+        margin-left: 20px;
+        color: #002441;
+        font-size: 15px;
+      }
+      #b3{
+        background-color: orangered;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    border: 0;
+    width: 90%;
+    height: 40px;
+      }
+      #input2{
+        text-align: center;
+        width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgba(255, 68, 0, 0.705);
+      }
+      @media screen and (max-width: 375px) {
+        h4{
+          font-size: 18px;
+          margin: 5px;
+        }
+        .main2{
+          width: 80%;
+        }
+  }
+    </style>
+  </head>
+  <body>
+    <div class="main1"></div>
+    <div class="main2">
+      <div class="m2sub1">
+        <img
+          src="https://assets.cars24.com/production/c2b-website/230621163739/js/0d17b701b23e80255f72913fc47f03d4.svg"
+          alt=""
+        />
+        <h4>A whole new
+            world of Cars</h4>
+      </div>
+      <div class="m2sub2">
+        <span id="login">Login</span>
+        <p id="t2">To check your loan eligibilty</p>
+        <p id="t3">Mobile number</p>
+        <input id="input2" type="text" placeholder="9999 999 999">
+        <BUTTon id="b3">Get OTP</BUTTon>
+      </div>
+    </div>
+  </body>
+</html>

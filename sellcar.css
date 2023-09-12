@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#a1{
+    text-decoration: none;
+    color: #002441;
+    }
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav2{
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    border: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+#nav1 {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+#nav1::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: orangered;
+    transition: width .3s;
+}
+
+#nav1:hover::after {
+    width: 100%;
+    transition: width 1s;
+}
+
+#nav1{
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    border: 0;
+    background-color: white;
+    outline: none;
+}
+#nav1 :hover:after {
+    opacity: 1;
+  }
+#logo1{
+    height: 100px;
+    width: 90px;
+}
+.loc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 200px;
+}
+.nav_contents{
+    height: 100%;
+    width: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cnt1{
+    width: 100px;
+}
+.navd3{
+    height: 100%;
+    width: 450px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.nav_contact{
+    width: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+}
+.nav_contact1{
+    width: 130px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center; 
+    flex-direction: column;
+}
+#d32{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#search{
+    width: 400px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.main2{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    height: 600px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url("https://assets.cars24.com/production/c2b-website/230621163739/js/4989ce2bf9af2afac9087d7f3156e9f8.webp") ;
+}
+.m2sub1{
+    width: 40%;
+    height: 200px;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    padding-top: 250px;
+    padding-left: 50px;
+}
+.m2sub2a{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.m2sub2b{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#m2img{
+    height: 40px;
+    width: 50px;
+
+}
+#b1{
+    background-color: orangered;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    border: 0;
+    width: 90%;
+    height: 40px;
+}
+#t1{
+    font-size: 19px;
+    font-weight: 600;
+}
+#input1{
+    text-align: center;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgba(255, 68, 0, 0.705);
+
+}
+
+.footer{
+    background-color: rgba(214, 214, 213, 0.719);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+#foot{
+    font-size: 15px;
+    font-weight: 700;
+    color: #002441;
+}
+.foot1{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.foot2{
+    padding-top: 20px;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.footsub1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footertext{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;  
+}
+.footertext li a{
+    text-decoration: none;
+    list-style-type: none; ;  
+}
+#foottex{
+    padding: 35px 32px 28px;
+    font-size: 13px;
+}
